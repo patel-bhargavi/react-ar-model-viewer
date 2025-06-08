@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/globals.d.ts","./src/main.tsx","./src/vite-env.d.ts","./src/service/proxyimg.ts","./src/components/armodel.tsx","./src/components/loader.tsx","./src/components/notfound.tsx","./src/components/variantselector.tsx"],"version":"5.6.2"}

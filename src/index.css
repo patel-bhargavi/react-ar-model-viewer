@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+body {
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
+}
+
+index.css body,
+html {
+  overflow: hidden;
+}
+
+.variant-selector {
+  margin-top: 16px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.variant-selector option {
+  padding: 8px;
+}
+
+model-viewer::part(progress-bar) {
+  background-color: #2563eb;
+  /* Blue bar */
+  height: 6px;
+  border-radius: 4px;
+}
+
+model-viewer::part(progress-mask) {
+  background-color: #e5e7eb;
+  /* Light gray background */
+  height: 6px;
+  border-radius: 4px;
+}
+
+model-viewer::part(center-poster) {
+  display: none;
+  /* Hide default poster image */
+}
+
+model-viewer::part(default-progress-bar) {
+  background: #2563eb;
+}
